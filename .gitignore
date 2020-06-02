@@ -3,6 +3,7 @@
 *.fls
 *.html
 *.log
-*.pdf
 *.synctex.gz
 *.tex
+*.pdf
+!t/*/*.pdf
