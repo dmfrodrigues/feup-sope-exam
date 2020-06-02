@@ -2,6 +2,9 @@
 title:
 - SOPE - Documentos para consulta em exame
 
+subtitle:
+- Conteúdos das aulas teóricas
+
 author:
 - Diogo Miguel Ferreira Rodrigues (<dmfrodrigues2000@gmail.com>)
 
