@@ -1,1 +1,1 @@
-python3 compose.py $1.md | pandoc -s --from=markdown --to=html --css pandoc.css -o $1.html
+python3 compose.py $1.md | pandoc -s --css pandoc.css -o $1.pdf

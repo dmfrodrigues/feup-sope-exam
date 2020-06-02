@@ -23,5 +23,5 @@ def parse(line):
 
 with open(sys.argv[1]) as f:
     content = f.readlines()
-    content = [x.strip() for x in content]
+    content = [x.rstrip() for x in content]
     output = [parse(x) for x in content]
