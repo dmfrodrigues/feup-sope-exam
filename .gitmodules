@@ -1,3 +1,9 @@
 [submodule "feup-sope-ex"]
 	path = feup-sope-ex
 	url = https://github.com/dmfrodrigues/feup-sope-ex.git
+[submodule "feup-sope-proj1"]
+	path = feup-sope-proj1
+	url = https://github.com/dmfrodrigues/feup-sope-proj1.git
+[submodule "feup-sope-proj2"]
+	path = feup-sope-proj2
+	url = https://github.com/dmfrodrigues/feup-sope-proj2.git

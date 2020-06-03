@@ -41,3 +41,13 @@ jobs:
       with:
         name: sope-consulta-tp.pdf
         path: sope-consulta-tp.pdf
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: sope-consulta-proj1.pdf
+        path: sope-consulta-proj1.pdf
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: sope-consulta-proj2.pdf
+        path: sope-consulta-proj2.pdf
