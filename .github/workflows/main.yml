@@ -10,8 +10,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: apt
-      run: sudo apt install -y pandoc
+    - name: Install pandoc
+      run: |
+        wget https://github.com/jgm/pandoc/releases/download/2.9.2.1/pandoc-2.9.2.1-1-amd64.deb -o ~/Downloads/pandoc.deb
+        sudo apt install -y ~/Downloads/pandoc.deb
 
     - name: Checkout submodules
       shell: bash
