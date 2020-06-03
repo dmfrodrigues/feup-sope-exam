@@ -1,0 +1,3 @@
+[submodule "feup-sope-ex"]
+	path = feup-sope-ex
+	url = https://github.com/dmfrodrigues/feup-sope-ex.git

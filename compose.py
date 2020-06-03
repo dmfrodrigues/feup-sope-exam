@@ -1,20 +1,14 @@
 import sys
+import os
 
 def parse(line):
-    if line.startswith('//'):
-        return
-    if 'https://github.com/FEUP-SWERC/algorithms/blob/master/code/' in line:
-        i = line.find("code/")
-        filename = line[line.find("code/"):-1]
-        with open("../"+filename, 'r') as file:
-            if filename.endswith('.cpp'):
-                print('**Code:** %s\n```cpp'%filename)
-                print(file.read())
-                print('```')
-            else:
-                content = file.readlines()
-                content = [x.strip() for x in content]
-                output = [parse(x) for x in content]
+    if line[:5] == 'code:':
+        filename = line[5:]
+        with open(filename, 'r') as file:
+            dummy, extension = os.path.splitext(filename)
+            print('**File:** `%s`\n```%s'%(filename, extension))
+            print(file.read())
+            print('```')
         return
     while line.find('$$') != -1:
         line = line.replace('$$', '<img src="http://latex.codecogs.com/gif.latex?\dpi{130}', 1)
@@ -23,5 +17,5 @@ def parse(line):
 
 with open(sys.argv[1]) as f:
     content = f.readlines()
-    content = [x.rstrip() for x in content]
+    content = [x.replace('\n', '') for x in content]
     output = [parse(x) for x in content]
