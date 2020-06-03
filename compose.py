@@ -6,9 +6,18 @@ def parse(line):
         filename = line[5:]
         with open(filename, 'r') as file:
             dummy, extension = os.path.splitext(filename)
-            print('**File:** `%s`\n```%s'%(filename, extension))
-            print(file.read())
-            print('```')
+            extension = extension[1:]
+            try:
+                content = file.read()
+                print('## **File:** `%s`\n'%filename)
+                if extension != 'md':
+                    print('```%s'%extension)
+                    print(content)
+                    print('```')
+                else:
+                    print(content)
+            except:
+                print("Invalid content in " + filename, file=sys.stderr)
         return
     while line.find('$$') != -1:
         line = line.replace('$$', '<img src="http://latex.codecogs.com/gif.latex?\dpi{130}', 1)

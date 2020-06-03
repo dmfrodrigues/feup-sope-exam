@@ -18,4 +18,6 @@ geometry:
 - right=25mm
 
 urlcolor: #0645AD
+
+toc: 1
 ...
