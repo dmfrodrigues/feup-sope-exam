@@ -31,3 +31,11 @@ jobs:
 
     - name: Make docs
       run: make
+
+    - uses: actions/upload-artifact@v2
+      with:
+        name: sope-consulta-t.pdf
+        path: sope-consulta-t.pdf
+      with:
+        name: sope-consulta-tp.pdf
+        path: sope-consulta-tp.pdf
