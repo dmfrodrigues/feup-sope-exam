@@ -11,16 +11,44 @@ author:
 date:
 - 19th of June, 2020
 
+documentclass: report
+
+papersize: a4
+
 geometry:
-- top=25mm
-- bottom=25mm
-- left=25mm
-- right=25mm
+- top=10mm
+- bottom=20mm
+- left=10mm
+- right=10mm
 
 urlcolor: #0645AD
 
 toc: 1
+
+header-includes:
+- \usepackage{listings}
+- \lstset{basicstyle=\ttfamily,columns=fullflexible,frame=single,breaklines=true,postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},}
 ...
+
+# Common
+
+code:feup-sope-proj2/common/include/common_atomic.h
+
+code:feup-sope-proj2/common/src/common_atomic.c
+
+code:feup-sope-proj2/common/include/common_time.h
+
+code:feup-sope-proj2/common/src/common_time.c
+
+code:feup-sope-proj2/common/include/message.h
+
+code:feup-sope-proj2/common/include/output.h
+
+code:feup-sope-proj2/common/src/output.c
+
+code:feup-sope-proj2/common/include/utils.h
+
+code:feup-sope-proj2/common/src/utils.c
 
 # Client
 

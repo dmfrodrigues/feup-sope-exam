@@ -9,7 +9,7 @@ def parse(line):
             extension = extension[1:]
             try:
                 content = file.read()
-                print('## **File:** `%s`\n'%filename)
+                print('### **File:** `%s`\n'%filename)
                 if extension != 'md':
                     print('```%s'%extension)
                     print(content)

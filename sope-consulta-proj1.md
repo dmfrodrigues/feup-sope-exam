@@ -11,6 +11,10 @@ author:
 date:
 - 19th of June, 2020
 
+documentclass: report
+
+papersize: a4
+
 geometry:
 - top=25mm
 - bottom=25mm
