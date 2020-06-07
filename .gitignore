@@ -4,7 +4,7 @@
 *.html
 *.log
 *.synctex.gz
-*.tex
+*.out
 *.pdf
-!*/*/*.pdf
+!exams/*/[0-9][0-9][0-9][0-9][NE].pdf
 sope-consulta-tp.md
