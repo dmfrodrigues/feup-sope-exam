@@ -20,246 +20,252 @@ toc: 1
 
 # TP01
 
-code:feup-sope-ex/tp01/02_a.c
+code:feup-sope-ex/tp01/p02_a.c
 
-code:feup-sope-ex/tp01/02_a.sh
+code:feup-sope-ex/tp01/p02_a.sh
 
-code:feup-sope-ex/tp01/02_b.c
+code:feup-sope-ex/tp01/p02_b.c
 
-code:feup-sope-ex/tp01/02_b.sh
+code:feup-sope-ex/tp01/p02_b.sh
 
-code:feup-sope-ex/tp01/03_a.sh
+code:feup-sope-ex/tp01/p03_a.sh
 
-code:feup-sope-ex/tp01/03_b.c
+code:feup-sope-ex/tp01/p03_b.c
 
-code:feup-sope-ex/tp01/03_b.sh
+code:feup-sope-ex/tp01/p03_b.sh
 
-code:feup-sope-ex/tp01/03_c.sh
+code:feup-sope-ex/tp01/p03_c.sh
 
-code:feup-sope-ex/tp01/04_a.c
+code:feup-sope-ex/tp01/p04_a.c
 
-code:feup-sope-ex/tp01/04_a.sh
+code:feup-sope-ex/tp01/p04_a.sh
 
-code:feup-sope-ex/tp01/04_b.c
+code:feup-sope-ex/tp01/p04_b.c
 
-code:feup-sope-ex/tp01/04_b.sh
+code:feup-sope-ex/tp01/p04_b.sh
 
-code:feup-sope-ex/tp01/05_a.c
+code:feup-sope-ex/tp01/p05_a.c
 
-code:feup-sope-ex/tp01/05_a.sh
+code:feup-sope-ex/tp01/p05_a.sh
 
-code:feup-sope-ex/tp01/05_b.c
+code:feup-sope-ex/tp01/p05_b.c
 
-code:feup-sope-ex/tp01/05_b.sh
+code:feup-sope-ex/tp01/p05_b.sh
 
-code:feup-sope-ex/tp01/05_c.c
+code:feup-sope-ex/tp01/p05_c.c
 
-code:feup-sope-ex/tp01/05_c.sh
+code:feup-sope-ex/tp01/p05_c.sh
 
-code:feup-sope-ex/tp01/05_d.c
+code:feup-sope-ex/tp01/p05_d.c
 
-code:feup-sope-ex/tp01/05_d.sh
+code:feup-sope-ex/tp01/p05_d.sh
 
-code:feup-sope-ex/tp01/06_a.c
+code:feup-sope-ex/tp01/p06_a.c
 
-code:feup-sope-ex/tp01/06_a.sh
+code:feup-sope-ex/tp01/p06_a.sh
 
-code:feup-sope-ex/tp01/06_b.md
+code:feup-sope-ex/tp01/p06_b.md
 
-code:feup-sope-ex/tp01/06_c.sh
+code:feup-sope-ex/tp01/p06_c.sh
 
-code:feup-sope-ex/tp01/06_d.c
+code:feup-sope-ex/tp01/p06_d.c
 
-code:feup-sope-ex/tp01/06_d.sh
+code:feup-sope-ex/tp01/p06_d.sh
 
-code:feup-sope-ex/tp01/06_e.c
+code:feup-sope-ex/tp01/p06_e.c
 
-code:feup-sope-ex/tp01/06_e.sh
+code:feup-sope-ex/tp01/p06_e.sh
 
-code:feup-sope-ex/tp01/06_f.sh
+code:feup-sope-ex/tp01/p06_f.sh
 
-code:feup-sope-ex/tp01/06_g.c
+code:feup-sope-ex/tp01/p06_g.c
 
-code:feup-sope-ex/tp01/06_g.sh
+code:feup-sope-ex/tp01/p06_g.sh
 
-code:feup-sope-ex/tp01/06_h.c
+code:feup-sope-ex/tp01/p06_h.c
 
-code:feup-sope-ex/tp01/06_h.sh
+code:feup-sope-ex/tp01/p06_h.sh
 
-code:feup-sope-ex/tp01/07_a.c
+code:feup-sope-ex/tp01/p07_a.c
 
-code:feup-sope-ex/tp01/07_a.sh
+code:feup-sope-ex/tp01/p07_a.sh
 
-code:feup-sope-ex/tp01/07_b.c
+code:feup-sope-ex/tp01/p07_b.c
 
-code:feup-sope-ex/tp01/07_b.sh
+code:feup-sope-ex/tp01/p07_b.sh
 
-code:feup-sope-ex/tp01/08_a.c
+code:feup-sope-ex/tp01/p08_a.c
 
-code:feup-sope-ex/tp01/08_a.sh
+code:feup-sope-ex/tp01/p08_a.sh
 
-code:feup-sope-ex/tp01/08_b.c
+code:feup-sope-ex/tp01/p08_b.c
 
-code:feup-sope-ex/tp01/08_b.sh
+code:feup-sope-ex/tp01/p08_b.sh
 
-code:feup-sope-ex/tp01/09_a.sh
+code:feup-sope-ex/tp01/p09_a.sh
 
-code:feup-sope-ex/tp01/09_b.sh
+code:feup-sope-ex/tp01/p09_b.sh
 
 # TP02
 code:feup-sope-ex/tp02/f1.txt
 
-code:feup-sope-ex/tp02/folha1-p6a.c
-
 code:feup-sope-ex/tp02/infile.txt
 
-code:feup-sope-ex/tp02/p1.c
+code:feup-sope-ex/tp02/p01.c
+code:feup-sope-ex/tp02/p01.sh
+code:feup-sope-ex/tp02/p02_a.c
+code:feup-sope-ex/tp02/p02_a.sh
 
-code:feup-sope-ex/tp02/p2b.c
+code:feup-sope-ex/tp02/p02_b.c
+code:feup-sope-ex/tp02/p02_b.sh
 
-code:feup-sope-ex/tp02/p3a.c
+code:feup-sope-ex/tp02/p03_a.c
+code:feup-sope-ex/tp02/p03_a.sh
 
-code:feup-sope-ex/tp02/p3b.c
+code:feup-sope-ex/tp02/p03_b.c
+code:feup-sope-ex/tp02/p03_b.sh
 
-code:feup-sope-ex/tp02/p4a.c
+code:feup-sope-ex/tp02/p04_a.c
+code:feup-sope-ex/tp02/p04_a.sh
 
-code:feup-sope-ex/tp02/p4b.c
+code:feup-sope-ex/tp02/p04_b.c
+code:feup-sope-ex/tp02/p04_b.sh
 
 code:feup-sope-ex/tp02/p5a.c
-
-code:feup-sope-ex/tp02/p5a.md
-
 code:feup-sope-ex/tp02/p5a.sh
-
 code:feup-sope-ex/tp02/p5b.c
-
-code:feup-sope-ex/tp02/p5b.md
-
 code:feup-sope-ex/tp02/p5b.sh
 
-code:feup-sope-ex/tp02/p6a.c
+code:feup-sope-ex/tp02/p05_a.md
+code:feup-sope-ex/tp02/p05_a.sh
 
-code:feup-sope-ex/tp02/p6a.sh
+code:feup-sope-ex/tp02/p05_b.md
+
+code:feup-sope-ex/tp02/p06_a.c
+
+code:feup-sope-ex/tp02/p06_a.sh
 
 # TP03
 code:feup-sope-ex/tp03/create_files.sh
+
+code:feup-sope-ex/tp03/p01_a.sh
+
+code:feup-sope-ex/tp03/p01.c
+
+code:feup-sope-ex/tp03/p02_a.md
+
+code:feup-sope-ex/tp03/p02_b.sh
+
+code:feup-sope-ex/tp03/p02.c
+
+code:feup-sope-ex/tp03/p03.c
+
+code:feup-sope-ex/tp03/p03.sh
+
+code:feup-sope-ex/tp03/p04_a.c
+
+code:feup-sope-ex/tp03/p04_a.sh
+
+code:feup-sope-ex/tp03/p04_b.c
+
+code:feup-sope-ex/tp03/p04_b.sh
+
+code:feup-sope-ex/tp03/p05.c
+
+code:feup-sope-ex/tp03/p05.sh
+
+code:feup-sope-ex/tp03/p06.c
+
+code:feup-sope-ex/tp03/p06.sh
+
+code:feup-sope-ex/tp03/p07.c
+
+code:feup-sope-ex/tp03/p07.sh
+
+code:feup-sope-ex/tp03/p08_a.c
+
+code:feup-sope-ex/tp03/p08_a.sh
+
+code:feup-sope-ex/tp03/p08_b.c
+
+code:feup-sope-ex/tp03/p08_b.sh
+
+code:feup-sope-ex/tp03/p08_c.c
+
+code:feup-sope-ex/tp03/p08_c.sh
+
+code:feup-sope-ex/tp03/p08_d.c
+
+code:feup-sope-ex/tp03/p08_d.sh
+
+code:feup-sope-ex/tp03/p08_e.c
+
+code:feup-sope-ex/tp03/p08_e.sh
+
+code:feup-sope-ex/tp03/p09_a.c
+
+code:feup-sope-ex/tp03/p09_a.sh
 
 code:feup-sope-ex/tp03/p10.c
 
 code:feup-sope-ex/tp03/p10.sh
 
-code:feup-sope-ex/tp03/p1a.sh
-
-code:feup-sope-ex/tp03/p1.c
-
-code:feup-sope-ex/tp03/p2a.md
-
-code:feup-sope-ex/tp03/p2b.sh
-
-code:feup-sope-ex/tp03/p2.c
-
-code:feup-sope-ex/tp03/p3.c
-
-code:feup-sope-ex/tp03/p3.sh
-
-code:feup-sope-ex/tp03/p4a.c
-
-code:feup-sope-ex/tp03/p4a.sh
-
-code:feup-sope-ex/tp03/p4b.c
-
-code:feup-sope-ex/tp03/p4b.sh
-
-code:feup-sope-ex/tp03/p5.c
-
-code:feup-sope-ex/tp03/p5.sh
-
-code:feup-sope-ex/tp03/p6.c
-
-code:feup-sope-ex/tp03/p6.sh
-
-code:feup-sope-ex/tp03/p7.c
-
-code:feup-sope-ex/tp03/p7.sh
-
-code:feup-sope-ex/tp03/p8a.c
-
-code:feup-sope-ex/tp03/p8a.sh
-
-code:feup-sope-ex/tp03/p8b.c
-
-code:feup-sope-ex/tp03/p8b.sh
-
-code:feup-sope-ex/tp03/p8c.c
-
-code:feup-sope-ex/tp03/p8c.sh
-
-code:feup-sope-ex/tp03/p8d.c
-
-code:feup-sope-ex/tp03/p8d.sh
-
-code:feup-sope-ex/tp03/p8e.c
-
-code:feup-sope-ex/tp03/p8e.sh
-
-code:feup-sope-ex/tp03/p9a.c
-
-code:feup-sope-ex/tp03/p9a.sh
-
 # TP04
+
+
+code:feup-sope-ex/tp04/kill.sh
+
+code:feup-sope-ex/tp04/p01_a.c
+
+code:feup-sope-ex/tp04/p01_a.sh
+
+code:feup-sope-ex/tp04/p01_b.c
+
+code:feup-sope-ex/tp04/p01_b.sh
+
+code:feup-sope-ex/tp04/p01_c.c
+
+code:feup-sope-ex/tp04/p01_c.sh
+
+code:feup-sope-ex/tp04/p02_a.c
+
+code:feup-sope-ex/tp04/p02_a.sh
+
+code:feup-sope-ex/tp04/p02_b.sh
+
+code:feup-sope-ex/tp04/p02_c.c
+
+code:feup-sope-ex/tp04/p02_c.sh
+
+code:feup-sope-ex/tp04/p03_a.c
+
+code:feup-sope-ex/tp04/p03_a.sh
+
+code:feup-sope-ex/tp04/p03_b.c
+
+code:feup-sope-ex/tp04/p03_b.sh
+
+code:feup-sope-ex/tp04/p04_a.c
+
+code:feup-sope-ex/tp04/p04_a.md
+
+code:feup-sope-ex/tp04/p04_a.sh
+
+code:feup-sope-ex/tp04/p04_c1.sh
+
+code:feup-sope-ex/tp04/p05_a.c
+
+code:feup-sope-ex/tp04/p05_a.sh
+
 code:feup-sope-ex/tp04/limit.c
 
-code:feup-sope-ex/tp04/p01a.c
-
-code:feup-sope-ex/tp04/p01a.sh
-
-code:feup-sope-ex/tp04/p01b.c
-
-code:feup-sope-ex/tp04/p01b.sh
-
-code:feup-sope-ex/tp04/p01c.c
-
-code:feup-sope-ex/tp04/p01c.sh
-
-code:feup-sope-ex/tp04/p01_kill.sh
-
-code:feup-sope-ex/tp04/p02a.c
-
-code:feup-sope-ex/tp04/p02a.sh
-
-code:feup-sope-ex/tp04/p02b.sh
-
-code:feup-sope-ex/tp04/p02c.c
-
-code:feup-sope-ex/tp04/p02c.sh
-
-code:feup-sope-ex/tp04/p03a.c
-
-code:feup-sope-ex/tp04/p03a.sh
-
-code:feup-sope-ex/tp04/p03b.c
-
-code:feup-sope-ex/tp04/p03b.sh
-
-code:feup-sope-ex/tp04/p04a.c
-
-code:feup-sope-ex/tp04/p04a.md
-
-code:feup-sope-ex/tp04/p04a.sh
-
-code:feup-sope-ex/tp04/p04c1.sh
-
-code:feup-sope-ex/tp04/p05a.c
-
-code:feup-sope-ex/tp04/p05a.sh
+code:feup-sope-ex/tp04/prog.c
 
 code:feup-sope-ex/tp04/p06.sh
 
 code:feup-sope-ex/tp04/p07.c
 
 code:feup-sope-ex/tp04/p07.sh
-
-code:feup-sope-ex/tp04/prog.c
 
 # TP05
 code:feup-sope-ex/tp05/nomes.txt
