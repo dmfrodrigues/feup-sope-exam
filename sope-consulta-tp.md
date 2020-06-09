@@ -11,17 +11,15 @@ author:
 date:
 - 19th of June, 2020
 
-geometry:
-- top=25mm
-- bottom=25mm
-- left=25mm
-- right=25mm
+documentclass: codeconsulting
 
 urlcolor: #0645AD
 
 toc: 1
 ...
+
 # TP01
+
 code:feup-sope-ex/tp01/02_a.c
 
 code:feup-sope-ex/tp01/02_a.sh
