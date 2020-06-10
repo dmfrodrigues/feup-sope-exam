@@ -1,5 +1,4 @@
 1 errno
-1 gcc
 1 kill
 1 ls
 1 ps
