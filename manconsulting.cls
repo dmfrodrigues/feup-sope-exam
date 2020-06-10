@@ -11,6 +11,7 @@
 \subsubsectionfont{\fontsize{12}{12}\selectfont}
 % Spacings
 \RequirePackage{titlesec}
+\titlespacing{\section}{0pt}{20pt}{0pt}
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
 \titlespacing{\subsubsection}{0pt}{0pt}{0pt}
 % Font
