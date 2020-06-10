@@ -18,7 +18,7 @@ jobs:
 
     - name: Install other dependencies with apt
       run: |
-        sudo apt install -y texlive-latex-extra
+        sudo apt install -y texlive-latex-extra texlive-fonts-extra
 
     - name: Checkout submodules
       shell: bash
