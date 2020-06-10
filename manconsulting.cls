@@ -14,8 +14,6 @@
 \titlespacing{\subsection}{0pt}{0pt}{0pt}
 \titlespacing{\subsubsection}{0pt}{0pt}{0pt}
 % Font
-\RequirePackage[scaled]{beramono}
 \renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
-\RequirePackage[T1]{fontenc}
 % ToC
 \setcounter{tocdepth}{1}
