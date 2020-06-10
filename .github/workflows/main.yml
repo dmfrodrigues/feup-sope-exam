@@ -16,9 +16,13 @@ jobs:
         wget https://github.com/jgm/pandoc/releases/download/2.9.2.1/pandoc-2.9.2.1-1-amd64.deb
         sudo apt install -y ./pandoc-2.9.2.1-1-amd64.deb
 
-    - name: Install other dependencies with apt
+    - name: Install man pages
       run: |
-        sudo apt install -y manpages-posix man-db manpages-dev manpages-posix-dev texlive-latex-extra texlive-fonts-extra
+        sudo apt install -y manpages-posix man-db manpages-dev manpages-posix-dev
+
+    - name: Install texlive
+      run: |
+        sudo apt install -y texlive-latex-extra texlive-fonts-extra
 
     - name: Checkout submodules
       shell: bash
