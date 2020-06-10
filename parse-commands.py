@@ -18,7 +18,7 @@ lst = []
 with open(filepath) as f:
     for line in f.readlines():
         line = line.strip()
-        print("Reading %s"%line)
+        print("Reading %s"%line, file=sys.stderr)
         section = line.split(' ')[0]
         result = subprocess.getoutput("zcat $(man -w %s) | pandoc -f man -t commonmark"%line).split("\n")
         for i in range(len(result)):

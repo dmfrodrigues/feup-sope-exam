@@ -20,6 +20,10 @@ jobs:
       run: |
         sudo apt install -y manpages-posix man-db manpages-dev manpages-posix-dev
 
+    - name: Install other dependencies
+      run: |
+        sudo apt install -y errno
+
     - name: Install texlive
       run: |
         sudo apt install -y texlive-latex-extra texlive-fonts-extra
