@@ -9,7 +9,7 @@ print("---\n"+
       "documentclass: manconsulting\n\n"+
       "urlcolor: #0645AD\n\n"+
       "toc: 1\n\n"+
-      "toc-depth: 2\n\n"
+      "toc-depth: 1\n\n"
       "...\n\n")
 
 filepath = sys.argv[1]
@@ -54,7 +54,7 @@ for i in lst:
         current_section = section
     print("## %s(%s)"%(s2[1], s2[0]))
     if i[0] == i[1]:
-        print(subprocess.getoutput("zcat $(man -w %s) | pandoc -f man -t gfm | sed 's/# /### /g'"%line))
+        print(subprocess.getoutput("zcat $(man -w %s) | pandoc -f man -t gfm | sed 's/# /### /g'"%i[0]))
     else:
         print("See %s(%s)"%(s1[1], s1[0]))
     print("\n\n")

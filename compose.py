@@ -2,8 +2,8 @@ import sys
 import os
 
 def parse(line):
-    if line[:5] == 'code:':
-        filename = line[5:]
+    if line[:6] == '!code:':
+        filename = line[6:]
         with open(filename, 'r') as file:
             dummy, extension = os.path.splitext(filename)
             extension = extension[1:]
@@ -19,9 +19,6 @@ def parse(line):
             except:
                 print("Invalid content in " + filename, file=sys.stderr)
         return
-    while line.find('$$') != -1:
-        line = line.replace('$$', '<img src="http://latex.codecogs.com/gif.latex?\dpi{130}', 1)
-        line = line.replace('$$', '" border="0"/>'                                         , 1)
     print(line)
 
 with open(sys.argv[1]) as f:

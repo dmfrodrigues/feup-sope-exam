@@ -32,22 +32,32 @@ jobs:
     - name: Make docs
       run: make
 
-    - uses: actions/upload-artifact@v2
+    - name: Upload t
+      uses: actions/upload-artifact@v2
       with:
         name: sope-consulta-t.pdf
         path: sope-consulta-t.pdf
 
-    - uses: actions/upload-artifact@v2
+    - name: Upload tp
+      uses: actions/upload-artifact@v2
       with:
         name: sope-consulta-tp.pdf
         path: sope-consulta-tp.pdf
 
-    - uses: actions/upload-artifact@v2
+    - name: Upload proj1
+      uses: actions/upload-artifact@v2
       with:
         name: sope-consulta-proj1.pdf
         path: sope-consulta-proj1.pdf
 
-    - uses: actions/upload-artifact@v2
+    - name: Upload proj2
+      uses: actions/upload-artifact@v2
       with:
         name: sope-consulta-proj2.pdf
         path: sope-consulta-proj2.pdf
+
+    - name: Upload man
+      uses: actions/upload-artifact@v2
+      with:
+        name: sope-consulta-man.pdf
+        path: sope-consulta-man.pdf

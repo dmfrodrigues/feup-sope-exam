@@ -17,35 +17,36 @@ urlcolor: #0645AD
 
 toc: 1
 ...
+# simpledu
 
-code:feup-sope-proj1/include/arg.h
+!code:feup-sope-proj1/include/arg.h
 
-code:feup-sope-proj1/include/simpledu_args.h
+!code:feup-sope-proj1/include/simpledu_args.h
 
-code:feup-sope-proj1/src/simpledu_args.c
+!code:feup-sope-proj1/src/simpledu_args.c
 
-code:feup-sope-proj1/include/simpledu_envp.h
+!code:feup-sope-proj1/include/simpledu_envp.h
 
-code:feup-sope-proj1/src/simpledu_envp.c
+!code:feup-sope-proj1/src/simpledu_envp.c
 
-code:feup-sope-proj1/include/simpledu_iterate.h
+!code:feup-sope-proj1/include/simpledu_iterate.h
 
-code:feup-sope-proj1/src/simpledu_iterate.c
+!code:feup-sope-proj1/src/simpledu_iterate.c
 
-code:feup-sope-proj1/include/simpledu_log.h
+!code:feup-sope-proj1/include/simpledu_log.h
 
-code:feup-sope-proj1/src/simpledu_log.c
+!code:feup-sope-proj1/src/simpledu_log.c
 
-code:feup-sope-proj1/include/simpledu_signals.h
+!code:feup-sope-proj1/include/simpledu_signals.h
 
-code:feup-sope-proj1/src/simpledu_signals.c
+!code:feup-sope-proj1/src/simpledu_signals.c
 
-code:feup-sope-proj1/include/simpledu_stat.h
+!code:feup-sope-proj1/include/simpledu_stat.h
 
-code:feup-sope-proj1/src/simpledu_stat.c
+!code:feup-sope-proj1/src/simpledu_stat.c
 
-code:feup-sope-proj1/include/simpledu_time.h
+!code:feup-sope-proj1/include/simpledu_time.h
 
-code:feup-sope-proj1/src/simpledu_time.c
+!code:feup-sope-proj1/src/simpledu_time.c
 
-code:feup-sope-proj1/src/simpledu.c
+!code:feup-sope-proj1/src/simpledu.c

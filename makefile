@@ -7,6 +7,8 @@ all: sope-consulta-t.pdf sope-consulta-tp.pdf sope-consulta-proj1.pdf sope-consu
 
 sope-consulta-man.md: parse-commands.py commands.txt
 	python3 parse-commands.py commands.txt > sope-consulta-man.md
+	sed -i 's/\xe2\x80\x86/ /g' sope-consulta-man.md
+	sed -i 's/\xe2\x80\x8a/ /g' sope-consulta-man.md
 
 clean:
 	git clean -dfX
