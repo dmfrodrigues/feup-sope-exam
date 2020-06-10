@@ -5,5 +5,7 @@
 *.log
 *.synctex.gz
 *.out
+*.toc
 *.pdf
 !exams/*/[0-9][0-9][0-9][0-9][NE].pdf
+sope-consulta-man.md
