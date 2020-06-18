@@ -1,3 +1,4 @@
+1 chmod
 1 cp
 1 errno
 1 kill
