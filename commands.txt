@@ -1,3 +1,4 @@
+1 cp
 1 errno
 1 kill
 1 ls
@@ -54,6 +55,7 @@
 3 fopen
 3 fputs
 3 getchar
+3 memcpy
 3 mkfifo
 3 mq_close
 3 mq_getattr
