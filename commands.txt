@@ -99,6 +99,7 @@
 3 sysconf
 3 system
 3 termios
+7 fifo
 7 mq_overview
 7 path_resolution
 7 pipe
