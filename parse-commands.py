@@ -5,7 +5,7 @@ print("---\n"+
       "title:\n- SOPE - Documentos para consulta em exame\n\n"+
       "subtitle:\n- man pages\n\n"+
       "author:\n- Diogo Miguel Ferreira Rodrigues (<dmfrodrigues2000@gmail.com>)\n\n"+
-      "date:\n- 19th of June, 2020\n\n"+
+      "date:\n- 2019/20, 2nd semester\n\n"+
       "documentclass: manconsulting\n\n"+
       "urlcolor: #0645AD\n\n"+
       "toc: 1\n\n"+
