@@ -4,6 +4,9 @@
 1 kill
 1 ls
 1 ps
+1 rm
+1 rmdir
+1 touch
 2 alarm
 2 chdir
 2 clone
@@ -44,6 +47,7 @@
 2 write
 3 abort
 3 atexit
+3 calloc
 3 errno
 3 errno
 3 exec
@@ -55,7 +59,9 @@
 3 fopen
 3 fopen
 3 fputs
+3 free
 3 getchar
+3 malloc
 3 memcpy
 3 mkfifo
 3 mq_close
@@ -82,6 +88,7 @@
 3 pthread_self
 3 putchar
 3 raise
+3 realloc
 3 rewinddir
 3 scanf
 3 sem_close
