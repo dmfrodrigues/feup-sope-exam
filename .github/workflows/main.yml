@@ -18,6 +18,8 @@ jobs:
 
     - name: Install man pages
       run: |
+        sudo apt update
+        sudo apt upgrade -y
         sudo apt install -y manpages-posix man-db manpages-dev manpages-posix-dev
 
     - name: Install other dependencies
