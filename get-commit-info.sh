@@ -1,0 +1,1 @@
+git --git-dir $1/.git log -n 1 --oneline --format="\href{https://github.com/dmfrodrigues/feup-sope-proj1/tree/%H}{%h} (%ai)"

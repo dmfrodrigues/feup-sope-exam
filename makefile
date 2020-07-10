@@ -1,5 +1,5 @@
 RM=rm -f
-LATEXMK=latexmk -interaction=nonstopmode --shell-escape -pdf
+LATEXMK=latexmk -f -interaction=nonstopmode --shell-escape -pdf
 
 all: sope-consulta-t.pdf sope-consulta-tp.pdf sope-consulta-proj1.pdf sope-consulta-proj2.pdf sope-consulta-man.pdf
 

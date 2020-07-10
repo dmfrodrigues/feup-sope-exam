@@ -16,6 +16,18 @@ documentclass: codeconsulting
 urlcolor: #0645AD
 
 toc: 1
+
+header-includes: |
+    \makeatletter
+    \g@addto@macro{\maketitle}{
+        \begin{secondpage}
+            Copyright \copyright 2020--\the\year\ Diogo Rodrigues\par
+            Permission is granted to copy and distribute this document under the terms of the
+            \href{https://creativecommons.org/licenses/by-nc-nd/4.0/}{Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International}
+            public license.\par
+        \end{secondpage}
+    }
+    \makeatother
 ...
 # simpledu
 
