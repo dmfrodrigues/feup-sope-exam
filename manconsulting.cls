@@ -18,3 +18,5 @@
 \renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
 % ToC
 \setcounter{tocdepth}{1}
+%
+\AtBeginDocument{\raggedright}
