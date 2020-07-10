@@ -1,27 +1,27 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{codeconsulting}[2020/06/08 Code documents class for consulting]
+\ProvidesClass{codeconsulting}
 \LoadClass[a4paper]{book}
-% Variables
-\RequirePackage{xkeyval}%
-\def\docauthorname{A. U. Thor}%
-\define@key{codeconsulting.cls}{author}[A. U. Thor]{%
-  \def\docauthorname{#1}%
+% Margins
+\RequirePackage[top=15mm,bottom=20mm,left=10mm,right=10mm,headsep=4mm]{geometry}
+% Copyright page
+\newenvironment{secondpage}{
+    \clearpage\null\vfill
+    \thispagestyle{empty}
+    \begin{minipage}[b]{0.9\textwidth}
+        \footnotesize\raggedright
+        \setlength{\parskip}{0.5\baselineskip}
+}{
+    \end{minipage}
+    \vspace*{2\baselineskip}
 }
-
-\ExecuteOptionsX{author}
-\ProcessOptionsX%
-
+% Sections
+\RequirePackage{titlesec}
+\titlespacing{\subsection}{0pt}{0pt}{0pt}
 % Some work
 \def\title#1{\gdef\@title{#1}\gdef\@@title{#1}}
 \def\author#1{\gdef\@author{#1}\gdef\@@author{#1}}
 \let\@@title\@empty
 \let\@@author\@empty
-
-% Other options
-\RequirePackage[top=15mm,bottom=20mm,left=10mm,right=10mm,headsep=4mm]{geometry}
-\RequirePackage{titlesec}
-\titlespacing{\subsection}{0pt}{0pt}{0pt}
-
 % Headers and footers
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}

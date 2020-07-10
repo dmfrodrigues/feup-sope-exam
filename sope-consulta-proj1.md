@@ -1,6 +1,6 @@
 ---
 title:
-- SOPE - Documentos para consulta em exame
+- SOPE -- Documentos para consulta em exame
 
 subtitle:
 - Projeto 1
