@@ -10,3 +10,5 @@
 !exams/*/[0-9][0-9][0-9][0-9][NE].pdf
 sope-consulta-man.md
 sope-consulta-man.tex
+*-tmp.*
+*.tex

@@ -4,14 +4,17 @@
 % Margins
 \RequirePackage[top=15mm,bottom=20mm,left=10mm,right=10mm,headsep=4mm]{geometry}
 % Copyright page
+\RequirePackage{changepage}
 \newenvironment{secondpage}{
     \clearpage\null\vfill
     \thispagestyle{empty}
-    \begin{minipage}[b]{0.9\textwidth}
-        \footnotesize\raggedright
-        \setlength{\parskip}{0.5\baselineskip}
+    \begin{adjustwidth}{15mm}{15mm}
+        \begin{minipage}[b]{0.9\linewidth}
+            \footnotesize\raggedright
+            \setlength{\parskip}{0.5\baselineskip}
 }{
-    \end{minipage}
+        \end{minipage}
+    \end{adjustwidth}
     \vspace*{2\baselineskip}
 }
 % Sections
