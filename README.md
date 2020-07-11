@@ -30,4 +30,4 @@ Documents are compiled by Github Actions, to see them go to [`Actions`](https://
 
 © 2020 Diogo Rodrigues
 
-All files are licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](LICENSE) by **© 2020 Diogo Rodrigues**, to the exception of artifact `sope-consulta-man.pdf` which is licensed under the [GNU General Public License v3](LICENSE) due to the licenses under which `man` pages are made available.
+All files are licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International](LICENSE) by **© 2020 Diogo Rodrigues**, to the exception of [`parse-commands.py`](parse-commands.py) and artifact `sope-consulta-man.pdf` which are licensed under the [GNU General Public License v3](LICENSE) due to the licenses under which `man` pages are made available.
