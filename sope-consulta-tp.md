@@ -1,21 +1,35 @@
 ---
 title:
-- SOPE - Documentos para consulta em exame
+- SOPE -- Documents for consulting during exam
 
 subtitle:
-- Exercícios das aulas práticas
+- Theoretical-practical classes
 
 author:
 - Diogo Miguel Ferreira Rodrigues (<dmfrodrigues2000@gmail.com>)
 
 date:
-- 19th of June, 2020
+- 2019/20, 2nd semester
 
 documentclass: codeconsulting
 
 urlcolor: #0645AD
 
 toc: 1
+
+header-includes: |
+    \makeatletter
+    \g@addto@macro{\maketitle}{
+        \begin{secondpage}
+            Copyright \copyright 2020--\the\year\ Diogo Rodrigues\par
+            Permission is granted to copy and distribute this document under the terms of the
+            \href{https://creativecommons.org/licenses/by-nc-nd/4.0/}{Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International}
+            public license.\par
+            \immediate\write18{./get-commit-info.sh feup-sope-ex > sope-consulta-tp-tmp.tex}
+            Source code was fetched from \href{https://github.com/dmfrodrigues/feup-sope-ex}{dmfrodrigues/feup-sope-ex}, commit \input{sope-consulta-tp-tmp.tex}\unskip, where it is published under the \href{https://www.gnu.org/licenses/gpl-3.0}{GNU General Public License v3}.
+        \end{secondpage}
+    }
+    \makeatother
 ...
 
 # TP01

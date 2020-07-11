@@ -1,15 +1,15 @@
 ---
 title:
-- SOPE -- Documentos para consulta em exame
+- SOPE -- DOcuments for consulting during exam
 
 subtitle:
-- Projeto 1
+- Project 1
 
 author:
 - Diogo Miguel Ferreira Rodrigues (<dmfrodrigues2000@gmail.com>)
 
 date:
-- 19th of June, 2020
+- 2019/20, 2nd semester
 
 documentclass: codeconsulting
 
@@ -25,6 +25,8 @@ header-includes: |
             Permission is granted to copy and distribute this document under the terms of the
             \href{https://creativecommons.org/licenses/by-nc-nd/4.0/}{Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International}
             public license.\par
+            \immediate\write18{./get-commit-info.sh feup-sope-proj1 > sope-consulta-proj1-tmp.tex}
+            Source code was fetched from \href{https://github.com/dmfrodrigues/feup-sope-proj1}{dmfrodrigues/feup-sope-proj1}, commit \input{sope-consulta-proj1-tmp.tex}\unskip, where it is published under the \href{https://www.gnu.org/licenses/gpl-3.0}{GNU General Public License v3}.
         \end{secondpage}
     }
     \makeatother

@@ -1,15 +1,15 @@
 ---
 title:
-- SOPE - Documentos para consulta em exame
+- SOPE -- Documents for consulting during exam
 
 subtitle:
-- Conteúdos das aulas teóricas
+- Theoretical classes
 
 author:
 - Diogo Miguel Ferreira Rodrigues (<dmfrodrigues2000@gmail.com>)
 
 date:
-- 19th of June, 2020
+- 2019/20, 2nd semester
 
 documentclass: report
 
