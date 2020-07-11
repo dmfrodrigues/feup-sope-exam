@@ -18,5 +18,19 @@
 \renewcommand*\familydefault{\ttdefault} %% Only if the base font of the document is to be typewriter style
 % ToC
 \setcounter{tocdepth}{1}
+% Second page
+\RequirePackage{changepage}
+\newenvironment{secondpage}{
+    \clearpage\null\vfill
+    \thispagestyle{empty}
+    \begin{adjustwidth}{15mm}{15mm}
+        \begin{minipage}[b]{0.9\linewidth}
+            \footnotesize\raggedright
+            \setlength{\parskip}{0.5\baselineskip}
+}{
+        \end{minipage}
+    \end{adjustwidth}
+    \vspace*{2\baselineskip}
+}
 %
 \AtBeginDocument{\raggedright}

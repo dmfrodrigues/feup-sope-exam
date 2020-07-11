@@ -9,7 +9,19 @@ print("---\n"+
       "documentclass: manconsulting\n\n"+
       "urlcolor: #0645AD\n\n"+
       "toc: 1\n\n"+
-      "toc-depth: 1\n\n"
+      "toc-depth: 1\n\n"+
+      "header-includes: |\n"+
+      "    \\makeatletter\n"+
+      "    \\g@addto@macro{\\maketitle}{\n"+
+      "        \\begin{secondpage}\n"+
+      "            Copyright \\copyright 2020--\\the\\year\\ Diogo Rodrigues\\par\n"+
+      "            Permission is granted to redistribute and/or modify this document under the terms of the\n"+
+      "            \\href{https://www.gnu.org/licenses/gpl-3.0}{GNU General Public License v3}.\\par\n"+
+      "            This document was compiled with the objective of being made publicly available for free at Github repository \\href{https://github.com/dmfrodrigues/feup-sope-exam}{dmfrodrigues/feup-sope-exam} for whoever might find it useful as a resource for consulting during exams of SOPE @FEUP.\\par\n"+
+      "            This is a compilation of manual pages commonly found under a Ubuntu distribution (or installed via \\texttt{apt}), all of which released under \\href{https://www.kernel.org/doc/man-pages/licenses.html}{free licenses}. Unfortunately I can not acknowledge all authors individually as this document is automatically generated; the corresponding authors are mentioned in the \\emph{Copyright} sections, or are otherwise trackable via links in colophones and similar sections. The original documents can otherwise be found by consulting the \\href{https://github.com/dmfrodrigues/feup-sope-exam/blob/master/.github/workflows/main.yml}{Github Actions file} that generated it.\n"+
+      "        \\end{secondpage}\n"+
+      "    }\n"+
+      "    \\makeatother\n\n"+
       "...\n\n")
 
 filepath = sys.argv[1]
