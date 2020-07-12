@@ -5,6 +5,7 @@ all: sope-consulta-t.pdf sope-consulta-tp.pdf sope-consulta-proj1.pdf sope-consu
 
 %.pdf: %.md codeconsulting.cls manconsulting.cls
 	python3 compose.py $< | pandoc --top-level-division=chapter --highlight-style=pygments-grey.theme -s -o $(patsubst %.pdf,%.tex,$@)
+	sed -i 's/\\section{\(.*\)}\\label{\(.*\)}}/\\section{\1}}\\label{\2}/g' $(patsubst %.pdf,%.tex,$@)
 	$(LATEXMK) $(patsubst %.pdf,%.tex,$@)
 
 sope-consulta-man.md: parse-commands.py commands.txt

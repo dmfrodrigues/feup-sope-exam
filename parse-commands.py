@@ -79,5 +79,5 @@ for i in lst:
     if i[0] == i[1]:
         print(subprocess.getoutput("zcat $(man -w %s) | pandoc -f man -t gfm | sed 's/# /### /g'"%i[0]))
     else:
-        print("See %s(%s)"%(s1[1], s1[0]))
+        print("See %s(%s) (page \\pageref{%s})"%(s1[1], s1[0], (s1[1]+s1[0]).lower()))
     print("\n\n")
