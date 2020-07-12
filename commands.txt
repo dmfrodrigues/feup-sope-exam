@@ -60,6 +60,7 @@
 3 fputs
 3 free
 3 getchar
+3 getenv
 3 malloc
 3 memcpy
 3 mkfifo
