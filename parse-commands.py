@@ -13,6 +13,7 @@ print("---\n"+
       "    \\g@addto@macro{\\maketitle}{\n"+
       "        \\begin{secondpage}\n"+
       "            Copyright \\copyright 2020--\\the\\year\\ Diogo Rodrigues\\par\n"+
+      "            \\immediate\\write18{./get-commit-info.sh > COMMIT.tex}\n"+
       "            Built on \\today~\\currenttime~from \\href{https://github.com/dmfrodrigues/feup-sope-exam}{dmfrodrigues/feup-sope-exam}, commit \\input{COMMIT}\\unskip.\\par\n"+
       "            Permission is granted to redistribute and/or modify this document under the terms of the\n"+
       "            \\href{https://www.gnu.org/licenses/gpl-3.0}{GNU General Public License v3}.\\par\n"+

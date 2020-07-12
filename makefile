@@ -15,15 +15,3 @@ sope-consulta-man.md: parse-commands.py commands.txt
 
 clean:
 	git clean -dfX
-
-COMMIT.tex: ./get-commit-info.sh
-	./get-commit-info.sh > COMMIT.tex
-
-sope-consulta-proj1-tmp.tex: ./get-submodule-commit-info.sh
-	./get-submodule-commit-info.sh feup-sope-proj1 > sope-consulta-proj1-tmp.tex
-
-sope-consulta-proj2-tmp.tex: ./get-submodule-commit-info.sh
-	./get-submodule-commit-info.sh feup-sope-proj2 > sope-consulta-proj2-tmp.tex
-
-sope-consulta-tp-tmp.tex: ./get-submodule-commit-info.sh
-	./get-submodule-commit-info.sh feup-sope-ex    > sope-consulta-tp-tmp.tex
