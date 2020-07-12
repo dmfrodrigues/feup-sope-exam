@@ -38,6 +38,7 @@ jobs:
       run: chmod u+x *.sh
 
     - name: Make docs
+      shell: bash
       run: make
 
     - name: Upload t
