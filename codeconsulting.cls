@@ -3,6 +3,9 @@
 \LoadClass[a4paper]{book}
 % Margins
 \RequirePackage[top=15mm,bottom=20mm,left=10mm,right=10mm,headsep=4mm]{geometry}
+% Time and date
+\usepackage[yyyymmdd,hhmmss]{datetime}
+\renewcommand{\dateseparator}{-}
 % Copyright page
 \RequirePackage{changepage}
 \newenvironment{secondpage}{
