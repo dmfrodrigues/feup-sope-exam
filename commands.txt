@@ -20,6 +20,7 @@
 2 ftruncate
 2 getcwd
 2 getpid
+2 getrlimit
 2 kill
 2 lseek
 2 mkdir
