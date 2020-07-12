@@ -30,7 +30,6 @@
 2 pause
 2 pipe
 2 read
-2 readdir
 2 rmdir
 2 seteuid
 2 setgid
@@ -88,6 +87,7 @@
 3 pthread_self
 3 putchar
 3 raise
+3 readdir
 3 realloc
 3 rewinddir
 3 scanf
