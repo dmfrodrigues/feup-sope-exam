@@ -38,11 +38,7 @@ jobs:
       run: chmod u+x *.sh
 
     - name: Make docs
-      shell: bash
-      run: |
-        make
-        ls -la
-        cat COMMIT.tex
+      run: make
 
     - name: Upload t
       uses: actions/upload-artifact@v2
