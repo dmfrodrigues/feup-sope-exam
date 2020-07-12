@@ -33,6 +33,10 @@ jobs:
         git submodule sync --recursive
         git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
 
+    - name: Give permissions to execute
+      shell: bash
+      run: chmod u+x *.sh
+
     - name: Make docs
       shell: bash
       run: |
