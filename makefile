@@ -3,7 +3,7 @@ LATEXMK=latexmk -f -interaction=nonstopmode --shell-escape -pdf
 
 all: sope-consulta-t.pdf sope-consulta-tp.pdf sope-consulta-proj1.pdf sope-consulta-proj2.pdf sope-consulta-man.pdf
 
-%.pdf: %.md codeconsulting.cls manconsulting.cls
+%.pdf: %.md codeconsulting.cls manconsulting.cls COMMIT.tex sope-consulta-proj1-tmp.tex sope-consulta-proj2-tmp.tex sope-consulta-tp-tmp.tex
 	python3 compose.py $< | pandoc --top-level-division=chapter --highlight-style=pygments-grey.theme -s -o $(patsubst %.pdf,%.tex,$@)
 	sed -i 's/\\section{\(.*\)}\\label{\(.*\)}}/\\section{\1}}\\label{\2}/g' $(patsubst %.pdf,%.tex,$@)
 	$(LATEXMK) $(patsubst %.pdf,%.tex,$@)
@@ -16,3 +16,14 @@ sope-consulta-man.md: parse-commands.py commands.txt
 clean:
 	git clean -dfX
 
+COMMIT.tex: ./get-commit-info.sh
+	./get-commit-info.sh > COMMIT.tex
+
+sope-consulta-proj1-tmp.tex: ./get-submodule-commit-info.sh
+	./get-submodule-commit-info.sh feup-sope-proj1 > sope-consulta-proj1-tmp.tex
+
+sope-consulta-proj2-tmp.tex: ./get-submodule-commit-info.sh
+	./get-submodule-commit-info.sh feup-sope-proj2 > sope-consulta-proj2-tmp.tex
+
+sope-consulta-tp-tmp.tex: ./get-submodule-commit-info.sh
+	./get-submodule-commit-info.sh feup-sope-ex    > sope-consulta-tp-tmp.tex

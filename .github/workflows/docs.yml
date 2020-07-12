@@ -34,15 +34,11 @@ jobs:
         git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
 
     - name: Make docs
-      run: make
-
-    - name: Check if COMMIT.tex was created
+      shell: bash
       run: |
+        make
         ls -la
         cat COMMIT.tex
-        git log --oneline
-        git log --oneline --format="\href{https://github.com/dmfrodrigues/feup-sope-ex/tree/%H}{%h} (%ai)"
-        git log -n 1 --oneline --format="\href{https://github.com/dmfrodrigues/feup-sope-ex/tree/%H}{%h} (%ai)"
 
     - name: Upload t
       uses: actions/upload-artifact@v2
