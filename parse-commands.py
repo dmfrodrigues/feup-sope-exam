@@ -2,7 +2,7 @@ import sys
 import subprocess
 
 print("---\n"+
-      "title:\n- SOPE - Documentos para consulta em exame\n\n"+
+      "title:\n- SOPE - Documents for consulting during exam\n\n"+
       "subtitle:\n- man pages\n\n"+
       "author:\n- Diogo Miguel Ferreira Rodrigues (<dmfrodrigues2000@gmail.com>)\n\n"+
       "date:\n- 2019/20, 2nd semester\n\n"+
@@ -15,6 +15,8 @@ print("---\n"+
       "    \\g@addto@macro{\\maketitle}{\n"+
       "        \\begin{secondpage}\n"+
       "            Copyright \\copyright 2020--\\the\\year\\ Diogo Rodrigues\\par\n"+
+      "            \\immediate\\write18{./get-commit-info.sh > COMMIT.tex}\n"+
+      "            Built on \\today~\\currenttime~from \\href{https://github.com/dmfrodrigues/feup-sope-exam}{dmfrodrigues/feup-sope-exam}, commit \\input{COMMIT}\\unskip.\\par\n"+
       "            Permission is granted to redistribute and/or modify this document under the terms of the\n"+
       "            \\href{https://www.gnu.org/licenses/gpl-3.0}{GNU General Public License v3}.\\par\n"+
       "            This document was compiled with the objective of being made publicly available for free at Github repository \\href{https://github.com/dmfrodrigues/feup-sope-exam}{dmfrodrigues/feup-sope-exam} for whoever might find it useful as a resource for consulting during exams of SOPE @FEUP.\\par\n"+
