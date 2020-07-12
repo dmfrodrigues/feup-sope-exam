@@ -8,8 +8,6 @@ print("---\n"+
       "date:\n- 2019/20, 2nd semester\n\n"+
       "documentclass: manconsulting\n\n"+
       "urlcolor: #0645AD\n\n"+
-      "toc: 1\n\n"+
-      "toc-depth: 1\n\n"+
       "header-includes: |\n"+
       "    \\makeatletter\n"+
       "    \\g@addto@macro{\\maketitle}{\n"+
@@ -22,6 +20,15 @@ print("---\n"+
       "            This document was compiled with the objective of being made publicly available for free at Github repository \\href{https://github.com/dmfrodrigues/feup-sope-exam}{dmfrodrigues/feup-sope-exam} for whoever might find it useful as a resource for consulting during exams of SOPE @FEUP.\\par\n"+
       "            This is a compilation of manual pages commonly found under a Ubuntu distribution (or installed via \\texttt{apt}), all of which released under \\href{https://www.kernel.org/doc/man-pages/licenses.html}{free licenses}. Unfortunately I can not acknowledge all authors individually as this document is automatically generated; the corresponding authors are mentioned in the \\emph{Copyright} sections, or are otherwise trackable via links in colophones and similar sections. The original documents can otherwise be found by consulting the \\href{https://github.com/dmfrodrigues/feup-sope-exam/blob/master/.github/workflows/main.yml}{Github Actions file} that generated it.\n"+
       "        \\end{secondpage}\n"+
+      "        \\frontmatter\n"+
+      "        \\newgeometry{top=35mm,bottom=35mm,left=25mm,right=25mm}\n"+
+      "        {\n"+
+      "            \\hypersetup{linkcolor=}\n"+
+      "            \\setcounter{tocdepth}{1}\n"+
+      "            \\tableofcontents\n"+
+      "        }\n"+
+      "        \\mainmatter\n"+
+      "        \\restoregeometry\n"+
       "    }\n"+
       "    \\makeatother\n\n"+
       "...\n\n")
