@@ -22,6 +22,7 @@ header-includes: |
     \g@addto@macro{\maketitle}{
         \begin{secondpage}
             Copyright \copyright 2020--\the\year\ Diogo Rodrigues\par
+            \IfFileExists{VERSION}{Version \input{VERSION}}{Draft version}\par
             \immediate\write18{./get-commit-info.sh > COMMIT.tex}
             Built on \today~\currenttime~from \href{https://github.com/dmfrodrigues/feup-sope-exam}{dmfrodrigues/feup-sope-exam}, commit \input{COMMIT}\unskip.\par
             Permission is granted to copy and distribute this document under the terms of the
