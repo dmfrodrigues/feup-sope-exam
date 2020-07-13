@@ -1,0 +1,77 @@
+name: docs-release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set version
+      run: echo ::set-env name=VERSION::${GITHUB_REF#refs/*/}
+
+    - name: Checkout right version
+      run: git checkout $(git rev-list -n 1 $VERSION)
+
+    - name: Install pandoc
+      run: |
+        cd ~
+        wget https://github.com/jgm/pandoc/releases/download/2.9.2.1/pandoc-2.9.2.1-1-amd64.deb
+        sudo apt install -y ./pandoc-2.9.2.1-1-amd64.deb
+
+    - name: Install man pages
+      run: |
+        sudo apt install -y manpages-posix man-db manpages-dev manpages-posix-dev errno
+
+    - name: Install texlive
+      run: |
+        sudo apt install -y texlive-latex-extra latexmk
+
+    - name: Checkout submodules
+      shell: bash
+      run: |
+        # If your submodules are configured to use SSH instead of HTTPS please uncomment the following line
+        # git config --global url."https://github.com/".insteadOf "git@github.com:"
+        auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+        git submodule sync --recursive
+        git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+
+    - name: Give permission to execute
+      run: chmod u+x *.sh
+
+    - name: Make docs
+      run: make VERSION=${VERSION:1:100}
+
+    - name: Upload t
+      uses: actions/upload-artifact@v2
+      with:
+        name: sope-consulta-t.pdf
+        path: sope-consulta-t.pdf
+
+    - name: Upload tp
+      uses: actions/upload-artifact@v2
+      with:
+        name: sope-consulta-tp.pdf
+        path: sope-consulta-tp.pdf
+
+    - name: Upload proj1
+      uses: actions/upload-artifact@v2
+      with:
+        name: sope-consulta-proj1.pdf
+        path: sope-consulta-proj1.pdf
+
+    - name: Upload proj2
+      uses: actions/upload-artifact@v2
+      with:
+        name: sope-consulta-proj2.pdf
+        path: sope-consulta-proj2.pdf
+
+    - name: Upload man
+      uses: actions/upload-artifact@v2
+      with:
+        name: sope-consulta-man.pdf
+        path: sope-consulta-man.pdf
