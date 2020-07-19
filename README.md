@@ -16,15 +16,17 @@ Documents to use during the SOPE exam.
 
 ## Contents
 
-- Table of contents of theoretical lessons' slides
-- Compilation of theoretical-practical lessons source code
-- Compilation of project 1 source code
-- Compilation of project 2 source code
-- Compilation of Unix `man` pages (those available in Ubuntu distributions)
+- [Table of contents of theoretical lessons' slides](sope-consulta-t.md)
+- [Compilation of theoretical-practical lessons source code](sope-consulta-tp.md)
+- [Compilation of project 1 source code](sope-consulta-proj1.md)
+- [Compilation of project 2 source code](sope-consulta-proj2.md)
+- [Compilation of Unix `man` pages](commands.txt) (those available in Ubuntu distributions)
 
 ## Documents
 
-Documents are compiled by Github Actions, to see them go to [`Actions`](https://github.com/dmfrodrigues/feup-sope-exam/actions) > `Workflows` > [`docs`](https://github.com/dmfrodrigues/feup-sope-exam/actions?query=workflow%3Adocs), go to the most recent action and check `This run > Artifacts`.
+Documents are available as [release](https://github.com/dmfrodrigues/feup-sope-exam/releases) assets.
+
+Documents are also compiled by Github Actions; to see more recent versions go to [`Actions`](https://github.com/dmfrodrigues/feup-sope-exam/actions) > `Workflows` > [`docs`](https://github.com/dmfrodrigues/feup-sope-exam/actions?query=workflow%3Adocs), go to the most recent action and check `This run > Artifacts`.
 
 ## License
 
