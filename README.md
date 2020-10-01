@@ -10,7 +10,7 @@
 - **Subjects:** Computer architecture analysis, low-level (assembly code) programming
 - **Environment:** [Digital](https://github.com/hneemann/Digital), [VisUAL](https://salmanarif.bitbucket.io/visual/index.html)
 - **Tools:** Logic circuits, ARMv7
-- **Course grade:** 18/20
+- **Course grade:** 19/20
 
 Documents to use during the SOPE exam.
 
